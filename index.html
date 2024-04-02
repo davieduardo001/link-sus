@@ -5,10 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+    body{
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      background-color: #302020;
+    }
+       
+     .piscas{
+       font-size: 5em;
+       font-family: serif;
+       color:#F00;
+       text-align: center;
+       animation: animate 1.5s linear infinite;
+     } 
+    
+     p {
+        font-size: 16px;
+     }
+
+     @keyframes animate{
+       0%{
+         opacity: 0;
+       }
+       50%{
+         opacity: 0.7;
+       }
+       100%{
+         opacity: 0;
+       }
+     }
+    </style>
   </head>
   <body>
-    <h1>SIM ESSE ERA UM EXEMPLO DE LINK SUSPEITO :P</h1>
-    <p>pois eh, nunca se sabe quando um link vai ser suspeito ou nao <bold>nao confie VERIFIQUE</bold></p>
-    <a href="./link_sus_2.html">clique aqui para saber mais...</a>
+
+    <main style="height: 100%;">
+      <h1 style="text-align: center;">SIM ESSE ERA UM EXEMPLO DE LINK SUSPEITO >:}</h1>
+
+      <h2 class="piscas"><a href="https://www.uniserunb.com/" style="text-decoration: none; color: red;">LINK SUSPEITO, NAO SE CLICA!! INCLUSIVE.. CLIQUE AQUIII</a></h2>
+  
+      <p style="padding-left: 20rem;">Pois eh, nunca se sabe quando um link vai ser suspeito ou nao <strong>nao confie VERIFIQUE</strong></p>
+     
+      <div style="display: flex; justify-content: center;">
+        <a href="./link_sus_2.html" style="color: aqua; text-align: center; font-size: large;">Para mais informacoes clique aqui</a>  
+      </div>      
+
+    </main>
+
+    <hr style="margin-top: 100px; margin-bottom: 30px;"/>
+   
+    <footer style="background-color: white;">
+      <h2 style="color: #000; text-align: center;">Apenas um site da UniSer (universidade do envelhecer)</h2>
+      <div style="display: flex; justify-content: space-around;">
+        <img src="./imgs/fap.png" alt="">
+        <img src="./imgs/unb.jpg" alt="">
+        <img src="./imgs/uniser.png" alt="">
+      </div>
+    </footer>
   </body>
 </html>

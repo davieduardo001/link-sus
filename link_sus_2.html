@@ -5,10 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+    body{
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      background-color: #302020;
+    }
+       
+     .piscas{
+       font-size: 5em;
+       font-family: serif;
+       color:#F00;
+       text-align: center;
+       animation: animate 1.5s linear infinite;
+     } 
+    
+     p {
+        font-size: 16px;
+     }
+
+     @keyframes animate{
+       0%{
+         opacity: 0;
+       }
+       50%{
+         opacity: 0.7;
+       }
+       100%{
+         opacity: 0;
+       }
+     }
+    </style>
   </head>
   <body>
-    <h1>Mais um link suspeiro...</h1> 
-    <p>clique aqui para voltar para a pagina inicial >:D </p>
-    <a href="./index.html">link</a>
+
+    <main style="height: 100%;">
+      <h1 style="text-align: center;">SIM ESSE ERA <b>MAIS UM LINK SUSPEITO</b></h1>
+
+      <h2 class="piscas"><a href="./index.html" style="text-decoration: none; color: red;">clique aqui para voltar para a pagina inicial >:D</a></h2>
+  
+      <p style="padding-left: 20rem;">Pois eh, nunca se sabe quando um link vai ser suspeito ou nao <strong>nao confie VERIFIQUE</strong></p>
+     
+      <div style="display: flex; justify-content: center;">
+        <div style="width:480px"><iframe allow="fullscreen" frameBorder="0" height="270" src="https://giphy.com/embed/IsDjNQPc4weWPEwhWm/video" width="480"></iframe></div>
+      </div>      
+
+    </main>
+
+    <hr style="margin-top: 100px; margin-bottom: 30px;"/>
+   
+    <footer style="background-color: white;">
+      <h2 style="color: #000; text-align: center;">Apenas um site da UniSer (universidade do envelhecer)</h2>
+      <div style="display: flex; justify-content: space-around;">
+        <img src="./imgs/fap.png" alt="">
+        <img src="./imgs/unb.jpg" alt="">
+        <img src="./imgs/uniser.png" alt="">
+      </div>
+    </footer>
   </body>
 </html>
+
